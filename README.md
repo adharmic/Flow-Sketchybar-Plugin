@@ -1,6 +1,6 @@
 ## Overview:
 
-This plug-in seeks to connect [https://www.flow.app/](Flow's pomodoro timing app) to your sketchybar config.
+This plug-in seeks to connect [Flow's pomodoro timing app](https://www.flow.app/) to your sketchybar config.
 
 Just add the item in your `sketchybarrc` and pass in the path to this script to the `script` parameter.
 
@@ -10,7 +10,7 @@ Don't forget to mark the script as executable!
 The script works by using Flow's built-in AppleScript API to query for the current phase and time remaining.
 It then uses that information to create the label and apply an appropriate icon. 
 
-(I chose a sun and moon theme, but you can pick any icon that fits in your config. Try [https://developer.apple.com/sf-symbols/](sf-symbols) for some options)
+(I chose a sun and moon theme, but you can pick any icon that fits in your config. Try [sf-symbols](https://developer.apple.com/sf-symbols/) for some options)
 
 Here's an example of how I load the script in my `sketchybarrc`:
 
